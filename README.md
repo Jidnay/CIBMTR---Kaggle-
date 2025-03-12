@@ -8,6 +8,6 @@ In my approach, I utilized the Weibull distribution, which closely resembles the
 
 The final equation used to calculate the risk is as follows:
 
-$$ y_ {risk} = \alpha \cdot weibull - \beta \cdot efs\_time\_norm + \theta $$
+$$ y_ {risk} = \alpha \cdot weibull - \beta \cdot \text{efs_time_norm} + \theta $$
 
 The final model is a emsemble of Xgboost and Catboost.
