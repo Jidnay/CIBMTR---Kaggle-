@@ -8,6 +8,6 @@ In my approach, I utilized the Weibull distribution, which closely resembles the
 
 The final equation used to calculate the risk is as follows:
 
-\[
+$$
 y_{\text{train}} = \alpha \cdot x_{\text{train}}[y] - \beta \cdot x_{\text{train}}[\text{efs\_time\_norm}] + \theta
-\]
+$$
